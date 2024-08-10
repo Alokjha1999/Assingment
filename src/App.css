@@ -1,0 +1,27 @@
+/* src/App.css */
+.app {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.review {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.review span {
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+
+.tooltip {
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  position: absolute;
+  z-index: 10;
+  display: none; /* Show on hover */
+}
